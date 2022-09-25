@@ -1,10 +1,13 @@
-import { getAllByTestId } from "@testing-library/react"
+import Header from "./components/Header"
 
 function App(){
     return (
+        <>
+        <Header text='Hi there'/>
     <div className='container'>
         <h1>My App</h1>
         </div>
+        </>
     )
 }
 
